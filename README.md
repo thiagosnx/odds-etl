@@ -13,6 +13,9 @@ Projeto simples de ETL (Extract, Transform, Load) que coleta dados de partidas d
 
 ---
 
+### Veja os resultados no LinkedIn:
+[https://www.linkedin.com/feed/update/urn:li:activity:7314758610511667200/](https://www.linkedin.com/feed/update/urn:li:activity:7314758610511667200/)
+
 ## 🚀 Como usar
 
 ### 1. Clone o repositório
@@ -33,6 +36,8 @@ pip install -r requirements.txt
 ```bash
 py etl.py
 ```
+
+
 
 
 
