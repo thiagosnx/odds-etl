@@ -11,9 +11,11 @@ def load(df, db_path="db/matches.db"):
             home_team TEXT,
             away_team TEXT,
             score_home INTEGER,
-            score_away INTEGER
+            score_away INTEGER,
+            winner TEXT
         )
     """
+    conn.execute("DROP TABLE IF EXISTS matches")
     conn.execute(create_table_sql)
 
     df.to_sql("matches", conn, if_exists="append", index=False)

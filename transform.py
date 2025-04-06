@@ -11,6 +11,7 @@ def transform(matches):
         "awayTeam.name",
         "score.fullTime.home",
         "score.fullTime.away",
+        "score.winner"
     ]]
 
     df.columns = [
@@ -21,6 +22,7 @@ def transform(matches):
         "away_team",
         "score_home",
         "score_away",
+        "winner"
     ]
 
     return df
