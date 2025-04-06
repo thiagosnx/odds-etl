@@ -1,4 +1,4 @@
-# 🏟️ Football ETL - Python + SQLite
+# 🏟️ Histórico de jogos ETL - Python + SQLite
 
 Projeto simples de ETL (Extract, Transform, Load) que coleta dados de partidas de futebol usando a API da [Football-Data.org](https://www.football-data.org/), transforma os dados relevantes e armazena em um banco de dados SQLite para futuras análises.
 
